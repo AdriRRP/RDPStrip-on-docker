@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
     libpcap0.8-dev \
     libssl-dev \
     libffi-dev \
+    iproute2 \
     iptables \
     build-essential \
     gcc \
