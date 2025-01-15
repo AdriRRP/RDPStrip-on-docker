@@ -1,3 +1,4 @@
+
 # Use an official Python 2 base image
 FROM python:2.7-slim
 
@@ -11,6 +12,8 @@ RUN apt-get update && apt-get install -y \
     libffi-dev \
     iproute2 \
     iptables \
+    net-tools \
+    iputils-ping \
     build-essential \
     gcc \
     python-dev \
